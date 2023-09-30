@@ -1,0 +1,2 @@
+cd projects/app
+nohup pnpm start >> /home/ubuntu/FastGPT/web.log 2>&1 &

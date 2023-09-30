@@ -47,7 +47,7 @@ const AIChatSettingsModal = ({
           {t('app.Quote Prompt Settings')}
           {feConfigs?.show_doc && (
             <Link
-              href={'https://doc.fastgpt.run/docs/use-cases/prompt/'}
+              href={'http://172.16.61.134:50081/docs//use-cases/prompt/'}
               target={'_blank'}
               ml={1}
               textDecoration={'underline'}

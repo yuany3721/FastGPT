@@ -123,7 +123,9 @@ export async function getInitConfig() {
     getSystemVersion();
 
     const filename =
-      process.env.NODE_ENV === 'development' ? 'data/config.local.json' : '/app/data/config.json';
+      process.env.NODE_ENV === 'development'
+        ? 'data/config.local.json'
+        : '/home/ubuntu/FastGPT/config.json';
     const res = JSON.parse(readFileSync(filename, 'utf-8'));
 
     console.log(`System Version: ${global.systemVersion}`);
@@ -163,7 +165,7 @@ export function getSystemVersion() {
       global.systemVersion = process.env.npm_package_version || '0.0.0';
       return;
     }
-    const packageJson = JSON.parse(readFileSync('/app/package.json', 'utf-8'));
+    const packageJson = JSON.parse(readFileSync('./package.json', 'utf-8'));
 
     global.systemVersion = packageJson?.version;
   } catch (error) {

@@ -1,5 +1,5 @@
 ---
-weight: 300
+weight: 100
 title: '使用案例'
 description: '有关 FastGPT 其他实践案例的更多信息'
 icon: 'cases'

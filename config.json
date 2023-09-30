@@ -1,0 +1,81 @@
+{
+  "FeConfig": {
+    "show_register": false,
+    "show_emptyChat": false,
+    "show_appStore": false,
+    "show_contact": false,
+    "show_git": false,
+    "show_doc": true,
+    "show_pay": false,
+    "show_openai_account": false,
+    "show_promotion": false,
+    "systemTitle": "FastGPT for 上海研究院",
+    "authorText": "Made by FastGPT Team.",
+    "limit": {
+      "exportLimitMinutes": 0
+    },
+    "scripts": []
+  },
+  "SystemParams": {
+    "vectorMaxProcess": 150,
+    "qaMaxProcess": 150,
+    "pgIvfflatProbe": 200
+  },
+  "ChatModels": [
+    {
+      "model": "chatglm2",
+      "name": "chatglm2",
+      "contextMaxToken": 8000,
+      "quoteMaxToken": 4000,
+      "maxTemperature": 1.2,
+      "price": 0,
+      "defaultSystem": ""
+    }
+  ],
+  "VectorModels": [
+    {
+      "model": "text-embedding-ada-002",
+      "name": "Embedding-2",
+      "price": 0,
+      "defaultToken": 200,
+      "maxToken": 30000
+    },
+    {
+      "model": "m3e",
+      "name": "M3E",
+      "price": 0,
+      "defaultToken": 200,
+      "maxToken": 18000
+    }
+  ],
+  "QAModel": {
+    "model": "chatglm2",
+    "name": "chatglm2",
+    "maxToken": 16000,
+    "price": 0
+  },
+  "ExtractModel": {
+    "model": "chatglm2",
+    "functionCall": true,
+    "name": "chatglm2",
+    "maxToken": 16000,
+    "price": 0,
+    "prompt": ""
+  },
+  "CQModel": {
+    "model": "chatglm2",
+    "functionCall": true,
+    "name": "chatglm2",
+    "maxToken": 16000,
+    "price": 0,
+    "prompt": ""
+  },
+  "QGModel": {
+    "model": "chatglm2",
+    "name": "chatglm2",
+    "maxToken": 16000,
+    "price": 0,
+    "prompt": "",
+    "functionCall": false
+  }
+}

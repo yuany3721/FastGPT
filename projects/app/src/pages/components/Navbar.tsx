@@ -37,7 +37,7 @@ const Navbar = () => {
             label: t('home.Docs'),
             key: 'docs',
             onClick: () => {
-              window.open('https://doc.fastgpt.run/docs/intro');
+              window.open('http://172.16.61.134:50081/docs/');
             }
           }
         ]

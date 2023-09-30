@@ -4,7 +4,10 @@ const path = require('path');
 
 const nextConfig = {
   i18n,
-  output: 'standalone',
+  // distDir: 'build',
+  // output: 'export',
+  // output: 'standalone',
+  output: process.env.BUILD_STANDALONE === "true" ? "standalone" : undefined,
   reactStrictMode: false,
   compress: true,
   transpilePackages: ['@fastgpt/*'],

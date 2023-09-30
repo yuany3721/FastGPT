@@ -167,20 +167,20 @@ const Navbar = ({ unread }: { unread: number }) => {
           </Link>
         </Box>
       )}
-      {/* {feConfigs?.show_doc && (
+      {feConfigs?.show_doc && (
         <MyTooltip label={t('home.Docs')} placement={'right-end'}>
           <Box
             {...itemStyles}
             mb={0}
             color={'#9096a5'}
             onClick={() => {
-              window.open(`https://doc.fastgpt.run/docs/intro`);
+              window.open(`http://172.16.61.134:50081/docs/`);
             }}
           >
             <MyIcon name={'courseLight'} width={'26px'} height={'26px'} />
           </Box>
         </MyTooltip>
-      )} */}
+      )}
       {feConfigs?.show_git && (
         <MyTooltip label={`Git Star: ${gitStar}`} placement={'right-end'}>
           <Link

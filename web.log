@@ -1,0 +1,176 @@
+nohup: ignoring input
+ WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.20.1","pnpm":"8.6.9"})
+
+> app@4.4.5 start /home/ubuntu/FastGPT/projects/app
+> next start -p 50080
+
+  ▲ Next.js 13.5.2
+  - Local:        http://localhost:50080
+
+ ✓ Ready in 338ms
+System Version: 4.4.5
+{
+  FeConfig: {
+    show_register: false,
+    show_emptyChat: false,
+    show_appStore: false,
+    show_contact: false,
+    show_git: false,
+    show_doc: true,
+    show_pay: false,
+    show_openai_account: false,
+    show_promotion: false,
+    systemTitle: 'FastGPT for 上海研究院',
+    authorText: 'Made by FastGPT Team.',
+    limit: { exportLimitMinutes: 0 },
+    scripts: []
+  },
+  SystemParams: { vectorMaxProcess: 150, qaMaxProcess: 150, pgIvfflatProbe: 200 },
+  ChatModels: [
+    {
+      model: 'chatglm2',
+      name: 'chatglm2',
+      contextMaxToken: 8000,
+      quoteMaxToken: 4000,
+      maxTemperature: 1.2,
+      price: 0,
+      defaultSystem: ''
+    }
+  ],
+  VectorModels: [
+    {
+      model: 'text-embedding-ada-002',
+      name: 'Embedding-2',
+      price: 0,
+      defaultToken: 200,
+      maxToken: 30000
+    },
+    {
+      model: 'm3e',
+      name: 'M3E',
+      price: 0,
+      defaultToken: 200,
+      maxToken: 18000
+    }
+  ],
+  QAModel: { model: 'chatglm2', name: 'chatglm2', maxToken: 16000, price: 0 },
+  ExtractModel: {
+    model: 'chatglm2',
+    functionCall: true,
+    name: 'chatglm2',
+    maxToken: 16000,
+    price: 0,
+    prompt: ''
+  },
+  CQModel: {
+    model: 'chatglm2',
+    functionCall: true,
+    name: 'chatglm2',
+    maxToken: 16000,
+    price: 0,
+    prompt: ''
+  },
+  QGModel: {
+    model: 'chatglm2',
+    name: 'chatglm2',
+    maxToken: 16000,
+    price: 0,
+    prompt: '',
+    functionCall: false
+  }
+}
+root user init: { username: 'root', password: '990413' }
+mongo connected
+pg connected
+【QA】任务完成
+【索引】任务完成
+init pg successful
+Killed
+ ELIFECYCLE  Command failed with exit code 137.
+nohup: ignoring input
+ WARN  Unsupported engine: wanted: {"node":">=18.0.0"} (current: {"node":"v16.20.1","pnpm":"8.6.9"})
+
+> app@4.4.5 start /home/ubuntu/FastGPT/projects/app
+> next start -p 50080
+
+  ▲ Next.js 13.5.2
+  - Local:        http://localhost:50080
+
+ ✓ Ready in 384ms
+System Version: 4.4.5
+{
+  FeConfig: {
+    show_register: false,
+    show_emptyChat: false,
+    show_appStore: false,
+    show_contact: false,
+    show_git: false,
+    show_doc: true,
+    show_pay: false,
+    show_openai_account: false,
+    show_promotion: false,
+    systemTitle: 'FastGPT for 上海研究院',
+    authorText: 'Made by FastGPT Team.',
+    limit: { exportLimitMinutes: 0 },
+    scripts: []
+  },
+  SystemParams: { vectorMaxProcess: 150, qaMaxProcess: 150, pgIvfflatProbe: 200 },
+  ChatModels: [
+    {
+      model: 'chatglm2',
+      name: 'chatglm2',
+      contextMaxToken: 8000,
+      quoteMaxToken: 4000,
+      maxTemperature: 1.2,
+      price: 0,
+      defaultSystem: ''
+    }
+  ],
+  VectorModels: [
+    {
+      model: 'text-embedding-ada-002',
+      name: 'Embedding-2',
+      price: 0,
+      defaultToken: 200,
+      maxToken: 30000
+    },
+    {
+      model: 'm3e',
+      name: 'M3E',
+      price: 0,
+      defaultToken: 200,
+      maxToken: 18000
+    }
+  ],
+  QAModel: { model: 'chatglm2', name: 'chatglm2', maxToken: 16000, price: 0 },
+  ExtractModel: {
+    model: 'chatglm2',
+    functionCall: true,
+    name: 'chatglm2',
+    maxToken: 16000,
+    price: 0,
+    prompt: ''
+  },
+  CQModel: {
+    model: 'chatglm2',
+    functionCall: true,
+    name: 'chatglm2',
+    maxToken: 16000,
+    price: 0,
+    prompt: ''
+  },
+  QGModel: {
+    model: 'chatglm2',
+    name: 'chatglm2',
+    maxToken: 16000,
+    price: 0,
+    prompt: '',
+    functionCall: false
+  }
+}
+root user init: { username: 'root', password: '990413' }
+mongo connected
+pg connected
+【QA】任务完成
+【索引】任务完成
+init pg successful

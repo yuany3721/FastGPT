@@ -39,7 +39,7 @@ const Tools = () => {
           {
             icon: 'courseLight',
             label: '使用文档',
-            link: 'https://doc.fastgpt.run/docs/intro'
+            link: 'http://172.16.61.134:50081/docs/'
           }
         ]
       : [])
