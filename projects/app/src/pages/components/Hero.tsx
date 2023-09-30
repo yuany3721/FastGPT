@@ -20,7 +20,7 @@ const Hero = () => {
       <Box fontSize={['xl', '3xl']} py={5} color={'myGray.600'} textAlign={'center'} maxW={'400px'}>
         {t('home.desc')}
       </Box>
-      <Flex zIndex={1} flexDirection={['column', 'row']} mt={[5, 8]}>
+      {/* <Flex zIndex={1} flexDirection={['column', 'row']} mt={[5, 8]}>
         {feConfigs?.show_git && (
           <Button
             mr={[0, 5]}
@@ -53,7 +53,7 @@ const Hero = () => {
         >
           {t('home.Start Now')}
         </Button>
-      </Flex>
+      </Flex> */}
       <Box mt={['', '-50px']} position={'relative'}>
         <Image
           minH={['auto', '400px']}

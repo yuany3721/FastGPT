@@ -23,11 +23,11 @@ const ApiKeyTable = dynamic(() => import('./components/ApiKeyTable'));
 
 enum TabEnum {
   'info' = 'info',
-  'promotion' = 'promotion',
-  'bill' = 'bill',
-  'pay' = 'pay',
-  'inform' = 'inform',
-  'apikey' = 'apikey',
+  // 'promotion' = 'promotion',
+  // 'bill' = 'bill',
+  // 'pay' = 'pay',
+  // 'inform' = 'inform',
+  // 'apikey' = 'apikey',
   'loginout' = 'loginout'
 }
 
@@ -40,39 +40,39 @@ const Account = ({ currentTab }: { currentTab: `${TabEnum}` }) => {
       id: TabEnum.info
     },
 
-    {
-      icon: 'billRecordLight',
-      label: t('user.Usage Record'),
-      id: TabEnum.bill
-    },
-    ...(feConfigs?.show_promotion
-      ? [
-          {
-            icon: 'promotionLight',
-            label: t('user.Promotion Record'),
-            id: TabEnum.promotion
-          }
-        ]
-      : []),
-    ...(feConfigs?.show_pay
-      ? [
-          {
-            icon: 'payRecordLight',
-            label: t('user.Recharge Record'),
-            id: TabEnum.pay
-          }
-        ]
-      : []),
-    {
-      icon: 'apikey',
-      label: t('user.apikey.key'),
-      id: TabEnum.apikey
-    },
-    {
-      icon: 'informLight',
-      label: t('user.Notice'),
-      id: TabEnum.inform
-    },
+    // {
+    //   icon: 'billRecordLight',
+    //   label: t('user.Usage Record'),
+    //   id: TabEnum.bill
+    // },
+    // ...(feConfigs?.show_promotion
+    //   ? [
+    //     {
+    //       icon: 'promotionLight',
+    //       label: t('user.Promotion Record'),
+    //       id: TabEnum.promotion
+    //     }
+    //   ]
+    //   : []),
+    // ...(feConfigs?.show_pay
+    //   ? [
+    //     {
+    //       icon: 'payRecordLight',
+    //       label: t('user.Recharge Record'),
+    //       id: TabEnum.pay
+    //     }
+    //   ]
+    //   : []),
+    // {
+    //   icon: 'apikey',
+    //   label: t('user.apikey.key'),
+    //   id: TabEnum.apikey
+    // },
+    // {
+    //   icon: 'informLight',
+    //   label: t('user.Notice'),
+    //   id: TabEnum.inform
+    // },
     {
       icon: 'loginoutLight',
       label: t('user.Sign Out'),
@@ -148,11 +148,11 @@ const Account = ({ currentTab }: { currentTab: `${TabEnum}` }) => {
 
           <Box flex={'1 0 0'} h={'100%'} pb={[4, 0]}>
             {currentTab === TabEnum.info && <UserInfo />}
-            {currentTab === TabEnum.promotion && <Promotion />}
+            {/* {currentTab === TabEnum.promotion && <Promotion />}
             {currentTab === TabEnum.bill && <BillTable />}
             {currentTab === TabEnum.pay && <PayRecordTable />}
             {currentTab === TabEnum.inform && <InformTable />}
-            {currentTab === TabEnum.apikey && <ApiKeyTable />}
+            {currentTab === TabEnum.apikey && <ApiKeyTable />} */}
           </Box>
         </Flex>
         <ConfirmModal />

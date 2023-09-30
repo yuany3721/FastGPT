@@ -57,15 +57,15 @@ defaultContentLanguage = 'zh-cn'
   mono_font       = "JetBrains Mono" # Default is System font
 
     [params.footer]
-        copyright = "© :YEAR: the FastGPT Authors."
+        copyright = "© :YEAR: the FastGPT Authors and yuany3721."
         version = false # includes git commit info
 
     [params.social]
-        github = "labring/FastGPT"        # YOUR_GITHUB_ID or YOUR_GITHUB_URL
+        # github = "labring/FastGPT"        # YOUR_GITHUB_ID or YOUR_GITHUB_URL
         # twitter = ""       # YOUR_TWITTER_ID
         # instagram = "colinwilson"     # YOUR_INSTAGRAM_ID
         # rss = true                    # show rss icon with link
-        wechat = "/wechat-fastgpt.webp"
+        # wechat = "/wechat-fastgpt.webp"
 
     [params.docs] # Parameters for the /docs 'template'
         title           = ""           # default html title for documentation pages/sections
@@ -83,7 +83,7 @@ defaultContentLanguage = 'zh-cn'
         # gitinfo
         repoURL         = "https://github.com/labring/FastGPT"  # Git repository URL for your site
         repoBranch      = "main"                           # Name of your Git repository branch
-        editPage        = true                                # enable 'Edit this page' feature - default false
+        editPage        = false                                # enable 'Edit this page' feature - default false
         lastMod         = false                                # enable 'Last modified' date on pages - default false
         lastModRelative = true                                # format 'Last modified' time as relative - default true
 
@@ -107,7 +107,7 @@ defaultContentLanguage = 'zh-cn'
         listDescTrunc   = 100                                 # Number of characters by which to truncate the list card description
 
     [params.flexsearch] # Parameters for FlexSearch
-        enabled             = true
+        enabled             = false
         tokenize            = "full"
         # optimize            = true
         # cache               = 100

@@ -106,15 +106,15 @@ const Navbar = () => {
                 {item.label}
               </Box>
             ))}
-            <Box px={4} color={'myGray.500'}>
+            {/* <Box px={4} color={'myGray.500'}>
               |
-            </Box>
+            </Box> */}
             <Box {...menuStyles} onClick={() => router.push('/login')}>
               {t('home.Login')}
             </Box>
-            <Button ml={4} h={'36px'} borderRadius={'3xl'} onClick={() => router.push('/app/list')}>
+            {/* <Button ml={4} h={'36px'} borderRadius={'3xl'} onClick={() => router.push('/app/list')}>
               {t('home.Start Now')}
-            </Button>
+            </Button> */}
           </>
         ) : (
           <MyIcon
@@ -135,9 +135,9 @@ const Navbar = () => {
           <Box mb={10} onClick={() => router.push('/login')}>
             {t('home.Login')}
           </Box>
-          <Button h={'36px'} borderRadius={'3xl'} onClick={() => router.push('/app/list')}>
+          {/* <Button h={'36px'} borderRadius={'3xl'} onClick={() => router.push('/app/list')}>
             {t('home.Start Now')}
-          </Button>
+          </Button> */}
         </Box>
       )}
       {isOpenCommunity && <CommunityModal onClose={onCloseCommunity} />}
